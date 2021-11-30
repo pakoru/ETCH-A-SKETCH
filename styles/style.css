@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#grid {
+    
+    display:flex;
+    background-color:antiquewhite;
+    border:solid;
+    width: 500px;
+    height: 500px;
+    flex-wrap:wrap;
+}
+
+.pixel{
+    background-color:white;
+    height: 50px;
+    width: 50px;
+}
+
+.paint{
+    background-color:black;
+}
